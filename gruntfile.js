@@ -9,7 +9,7 @@ grunt.initConfig({
                 paths: ['src/stylesheets/less', 'src/stylesheets/custom'],
                 yuicompress: true
             },
-            src: ['src/stylesheets/less/index.less', 'src/stylesheets/less/agency.less', 'src/stylesheets/less/custom.less'],               
+            src: ['src/stylesheets/less/index.less', 'src/stylesheets/less/custom.less'],               
             dest: 'src/stylesheets/style.css'
         }
     },
@@ -63,6 +63,10 @@ grunt.initConfig({
         css: {
             files: ['src/stylesheets/less/**/*.less'],
             tasks: ['less', 'postcss', 'cssmin']
+        },
+        js: {
+            files: ['src/javascripts/**/*.js'],
+            tasks: ['uglify']
         }
     }
 });
