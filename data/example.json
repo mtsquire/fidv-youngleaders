@@ -1,0 +1,36 @@
+{
+  "intro" : {
+    "headline" : "Learn real skills from world class entrepreneurs for free.",
+    "blurb1" : {
+      "text" : "H'University is a non-profit program started by Harry's committed to helping people find better ways everyday.",
+      "link" : "http://harrys.com",
+      "link-text" : "Read More",
+      "new-tab" : "N"
+    },
+    "blurb2" : {
+      "text" : "Are you a student or recent grad? In addition to watching our classes, you can earn real internships with top companies",
+      "link" : "http://harrys.com",
+      "link-text" : "Find out more",
+      "new-tab" : "N"
+    },
+    "above-video-blurb" : "Brought to you by Harry's",
+    "main-video" : "https://www.youtube.com/embed/yN3fxLC00rs"
+  },
+  "below-intro" : {
+    "headline" : "Classes",
+    "classes" : [
+      {
+        "speaker" : "Mickey Drexler",
+        "description" : "Drexler is often credited with Gap's meteoric rise during the 1900's. Until then Gap had been a relatively small chain selling private and public brands.  Under Drexler the company made a dramatic shift to private brand merchandise and expanded rapidly to become.", 
+        "image" : "http://placehold.it/600x500",
+        "video" : "https://www.youtube.com/embed/OPuSdLbkeQA"
+      },
+      {
+        "speaker" : "David Chang",
+        "description" : "Drexler is often credited with Gap's meteoric rise during the 1900's. Until then Gap had been a relatively small chain selling private and public brands.  Under Drexler the company made a dramatic shift to private brand merchandise and expanded rapidly to become.", 
+        "image" : "http://placehold.it/600x500",
+        "video" : "https://www.youtube.com/embed/3K3Zenx6TEU"
+      }
+    ]
+  }
+}
