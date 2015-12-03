@@ -101,7 +101,17 @@
             </div>
             <div class="row">
                 <div class="col-md-8">
-                    <img src="http://placehold.it/1000x1000?text=Tickets+Form+Here" class="img-responsive center-block">
+                    <div id="bbox-root"></div>
+                    <script type="text/javascript">
+                           window.bboxInit = function () {
+                               bbox.showForm('e21f71a4-8bce-4bcd-953c-a0c638129b57');
+                           };
+                           (function () {
+                               var e = document.createElement('script'); e.async = true;
+                               e.src = 'https://bbox.blackbaudhosting.com/webforms/bbox-min.js';
+                               document.getElementsByTagName('head')[0].appendChild(e);
+                           } ());
+                    </script>
                     <div class="more-info">
                         <p>Though it's been over one year since Operation Protective Edge, the lives of thousands of soldiers wounded in battle have changed forever. They have been seriously injured, and now they face a daily struggle with the difficult rehabilitation process, which for many will be a life-long battle.</p>
 
@@ -128,6 +138,12 @@
 
                     <div class="row board">
                         <div class="col-xs-12">
+                            <a class="fancybox" href="img/winter_gala_invite.jpg">
+                                <img src="img/winter_gala_invite-small.jpg" alt="" class="img-responsive center-block"/>
+                            </a>
+                        </div>
+
+                        <!-- <div class="col-xs-12">
                             <h3>Young Leadership Board</h3>
                             <p class="text-center"><strong>Chairs</strong></p>
                         </div>
@@ -144,7 +160,7 @@
                         <div class="col-xs-12">
                             <p class="text-center"><strong>Board</strong></p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et hendrerit ante, id convallis diam. In metus justo, posuere sed dapibus vitae, congue ac elit. Integer massa purus, dignissim sed urna vehicula, pretium varius tellus. Nunc aliquam, arcu eu bibendum dictum, ante turpis aliquet orci, nec sodales erat sapien eu turpis. Maecenas suscipit auctor nulla, in efficitur massa congue eget. Nunc dictum magna id tortor mattis, nec pharetra ante imperdiet. Fusce accumsan ullamcorper mollis. Praesent auctor finibus venenatis. Sed ac quam iaculis, congue lorem et, consequat risus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut volutpat odio et pharetra maximus.</p>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -269,7 +285,7 @@
             </div>
         </div>
     </section>
-    
+
     <footer>
         <div class="container">
             <div class="row">

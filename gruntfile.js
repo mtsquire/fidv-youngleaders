@@ -9,7 +9,7 @@ grunt.initConfig({
                 paths: ['src/stylesheets/less', 'src/stylesheets/custom'],
                 yuicompress: true
             },
-            src: ['src/stylesheets/less/index.less', 'src/stylesheets/less/custom.less'],               
+            src: ['src/stylesheets/less/index.less', 'src/stylesheets/less/custom.less'],
             dest: 'src/stylesheets/style.css'
         }
     },
@@ -50,6 +50,7 @@ grunt.initConfig({
         build: {
             src: [
                 'bower_components/jquery/dist/jquery.js',
+                'bower_components/fancybox/source/jquery.fancybox.js',
                 'src/javascripts/bootstrap.min.js',
                 'src/javascripts/classie.js',
                 'src/javascripts/cbpAnimatedHeader.js',
