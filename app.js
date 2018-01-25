@@ -24,13 +24,13 @@ app.locals.pkgversion = pkgversion;
 // Handlebars config
 var hbs = handlebars.create({
   extname: 'html',
-  defaultLayout: 'index.html',
+  //defaultLayout: 'index.html',
   layoutsDir: path.join(__dirname, 'views'),
   partialsDir: [{
       dir: path.join(__dirname, 'views')
   }],
   helpers : {
-      
+
   }
 });
 

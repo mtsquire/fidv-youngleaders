@@ -97,16 +97,42 @@ footer {
 }
 
 .gallery {
-    padding-top: 40px;
+    padding-top: 30px;
     padding-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
 
     &__photo {
-        width: 20%;
-        float: left;
+        flex-basis: 50%;
         padding-right: 10px;
+        padding-top: 10px;
+
+        @media(min-width: @screen-sm) {
+            flex-basis: 20%;
+        }
     }
 }
 
 #BBPanelHeading {
     display: none;
+}
+
+.sponsor-logos {
+    &__logo + &__logo {
+        margin-top: 25px;
+    }
+}
+
+.sponsor-logos + .sponsor-names {
+    margin-top: 25px;
+}
+
+.about-video {
+    padding-top: 25px;
+}
+
+.coming-soon {
+    padding: 60px;
+    background: #e4e4e4;
+    border: 5px solid #3161dd;
 }
