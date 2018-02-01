@@ -9,7 +9,6 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/donate', function(req, res, next) {
-    console.log('hellooooo');
   res.render('donate/index', { title: 'Express', data : data });
 });
 

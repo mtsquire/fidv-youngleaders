@@ -136,3 +136,54 @@ footer {
     background: #e4e4e4;
     border: 5px solid #3161dd;
 }
+
+.sponsorship-tier {
+    &__title {
+        font-weight: bold;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+
+    &__box {
+        padding: 40px 25px;
+        margin-bottom: 10px;
+        text-align: center;
+        border: 1px solid #000;
+
+        @media(min-width: @screen-md) {
+            margin-bottom: 0px;
+        }
+
+        &--friends {
+            background: #fff;
+        }
+
+        &--gold {
+            background: #cfc99c;
+        }
+
+        &--platinum {
+            background: #bebebe;
+        }
+
+        &--diamond {
+            background: #818181;
+            color: #fff;
+        }
+
+        &--guardian {
+            background: #585858;
+            color: #fff;
+        }
+    }
+
+    &__info {
+        margin-bottom: 0;
+    }
+}
+
+.sponsorship-tier + .sponsorship-tier {
+    border-top: 2px solid #bb1a19;
+    margin-top: 25px;
+    padding-top: 25px;
+}
